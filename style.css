@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.logo img{
+    height: 40px;
+    width: 80px;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.container{
+    max-width: 75%;
+    height: auto;
+    margin: 5px auto;
+   
+}
+
+/* .container */
+
+/*------------------
+----Home Button-----*/
+
+.home{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+
+ .button{
+    height: 30px;
+    width: 45px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(61, 61, 233);
+    color: white;
+    margin-top: 20px;
+    /* float: right;
+    position: absolute;
+    top: 55px;
+    right: 120px; */
+}
+
+.button:hover{
+    color: rgb(0, 248, 0);
+    background-color: rgba(90, 90, 148, 0.959);
+}
+
+
+/* ----------
+--Heading---*/
+
+.heading{
+    margin-bottom: 0px;
+
+}
+
+.heading h2{
+    color: rgb(75, 75, 248);
+    margin-bottom: 0px;
+}
+
+.fastline{
+    border: 1px solid green;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+/* -----------------
+--firstPreference---*/
+
+.first-preferece{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.first-preferece p{
+  margin: 0px;
+  padding: 0px;
+}
+.first-preferece label{
+    margin-right: 25px;
+}
+
+#course{
+    width: 300px;
+    height: 25px;
+    border: 1px solid powderblue;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#name{
+    width: 300px;
+    height: 25px;
+    border: 1px solid powderblue;
+    margin-bottom: 10px;
+}
+
+
+/* --------------------------
+--father, mother & gender---*/
+
+.input3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 40px;
+    margin-bottom: 10px;
+    
+
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#item1{
+    width: 200px;
+    height: 25px;
+    border: 1px solid powderblue;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#item2{
+    width: 200px;
+    height: 25px;
+    border: 1px solid powderblue;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#item3{
+    width: 200px;
+    height: 25px;
+    border: 1px solid powderblue;
+}
+
+
+/*-----Mobile & Email--*/
+
+.div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 40px;
+    margin-bottom: 10px;
+
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#itemA{
+    width: 300px;
+    height: 25px;
+    border: 1px solid powderblue;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#itemB{
+    width: 300px;
+    height: 25px;
+    border: 1px solid powderblue;
+}
+
